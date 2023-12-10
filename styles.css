@@ -1,0 +1,29 @@
+header {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#article {
+  color: blue;
+}
+#article p.section_1 {
+  color: purple;
+}
+#article p.section_2 {
+  color: rebeccapurple;
+}
+
+h1 {
+  color: aqua;
+}
+
+footer {
+  border: 1em solid orange;
+  padding-top: 12em;
+  margin-right: 12em;
+}
+
+p.foot {
+  border: 1em solid pink;
+}
+
+/*# sourceMappingURL=styles.css.map */

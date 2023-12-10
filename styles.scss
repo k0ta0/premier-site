@@ -1,0 +1,27 @@
+$color_1: blue;
+$color_2: red;
+$color_3: aqua;
+
+header {
+    border: 1px solid rgb(0, 0, 0);
+}
+#article {
+    color: $color_1;
+    p.section_1{
+        color: purple;
+    }
+    p.section_2{
+        color: rebeccapurple;
+    }
+}
+h1 {
+    color: $color_3;
+}
+footer {
+    border: 1em solid orange;
+    padding-top: 12em;
+    margin-right: 12em;
+}
+p.foot {
+    border: 1em solid pink;
+}
