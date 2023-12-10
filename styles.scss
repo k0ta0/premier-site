@@ -18,9 +18,19 @@ h1 {
     color: $color_3;
 }
 footer {
+    
     border: 1em solid orange;
     padding-top: 12em;
     margin-right: 12em;
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
 p.foot {
     border: 1em solid pink;

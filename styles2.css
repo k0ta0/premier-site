@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*  Styles généraux */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1em solid black;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a.section1 {
+  color: black;
+}
+nav ul li a.section2 {
+  color: black;
+}
+
+/* Styles pour la section principale*/
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+main article {
+  margin-bottom: 30px;
+}
+main article.informations {
+  background-color: #008BB8;
+  color: white;
+  border-radius: 2%;
+  padding: 0.5em;
+  border-top: 0.25em solid rgb(201, 200, 200);
+  border-right: 0.25em solid rgb(201, 200, 200);
+  border-left: 0.25em solid rgb(201, 200, 200);
+  border-bottom: 0.25em solid rgb(201, 200, 200);
+}
+
+/* Styles pour les bannières publicitaires*/
+.banners {
+  display: flex;
+  justify-content: space-between;
+}
+.banners .banner1,
+.banners .banner2,
+.banners .banner3 {
+  width: 30%;
+  /* Ajoutez d'autres styles de mise en page pour les bannières */
+}
+
+/* Styles pour le footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1em solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
